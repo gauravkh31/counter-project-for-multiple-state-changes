@@ -7,17 +7,17 @@ import './button.css'
 function App() {
   let [counter, setCounter] = useState(15)
 
-  // let invalue = () => {
+  let invalue = () => {
 
-  //   if(counter < 20){
-  //   setCounter(
-  //     counter = counter + 1
-  //   )
-  //   }
-  //   else{
-  //     alert("Value can't go above 20")
-  //   } 
-  // }
+    if(counter < 20){
+    setCounter(
+      counter = counter + 1
+    )
+    }
+    else{
+      alert("Value can't go above 20")
+    } 
+  }
 
 
   let devalue = () => {
